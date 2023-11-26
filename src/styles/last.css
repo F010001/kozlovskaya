@@ -1,0 +1,88 @@
+.last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../assets/last.svg);
+  max-width: 780px;
+  width: 100%;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.last__price {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-right: 150px;
+}
+
+.last__text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  font-size: 8px;
+  margin-right: 130px;
+}
+
+.last__link {
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+  background-color: #006eff;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 8px;
+  width: 100px;
+  margin-top: 5px;
+  margin-right: 150px;
+  margin-bottom: 30px;
+}
+
+.last__block {
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+.last__image__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  max-width: 780px;
+  margin-bottom: 20px;
+}
+
+.last__image__ex {
+  width: 70px;
+  height: 70px;
+}
+
+.last__block__text {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 8px;
+  text-transform: uppercase;
+  margin-right: 110px;
+}
+
+.last__footer__text {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 6px;
+  text-align: center;
+  max-width: 780px;
+  width: 65%;
+  margin-bottom: 10px;
+}
+
+.last__teleg__link {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 100px;
+  border-radius: 20px;
+  font-size: 8px;
+  margin-bottom: 10px;
+}

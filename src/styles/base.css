@@ -1,0 +1,78 @@
+.base__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../assets/first.svg);
+  max-width: 780px;
+  width: 100%;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.base {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+}
+
+.base__header {
+  text-transform: uppercase;
+  color: #006eff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.base__text {
+  position: relative;
+  font-family: 'Great Vibes', cursive;
+  color: white;
+  font-size: 20px;
+  z-index: 2;
+  top: -22px;
+}
+
+.base__middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.base__middle__text {
+  max-width: 220px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+}
+
+.base__footer {
+  height: 100px;
+  align-self: auto;
+  margin-top: 70px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.base__footer_first {
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 8px;
+}
+
+.base__footer_second {
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 8px;
+}
+
+.base__footer_third {
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 8px;
+}
