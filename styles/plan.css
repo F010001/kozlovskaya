@@ -3,11 +3,10 @@
   flex-direction: column;
   align-items: center;
   background-image: url(../assets/third.svg);
-  max-width: 780px;
   width: 100%;
   height: 320px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
@@ -19,7 +18,7 @@
   font-weight: 0;
   text-align: center;
   text-align: left;
-  margin-right: 100px;
+  /* margin-right: calc(60px + 35vw); */
 }
 
 .plan__subtitle {
@@ -28,7 +27,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 15px;
   text-align: left;
-  margin-right: 120px;
+  /* margin-right: calc(70px + 35vw); */
   text-transform: uppercase;
 }
 
@@ -39,7 +38,7 @@
 
 .plan__description {
   margin-top: 20px;
-  margin-right: 80px;
+  /* margin-right: calc(40px + 35vw); */
   margin-bottom: 50px;
 }
 
@@ -60,6 +59,7 @@
   background-color: white;
   height: 20px;
   width: 20px;
+  padding: 2.5px;
   border-radius: 50%;
   font-size: 10px;
 
@@ -98,11 +98,11 @@
 
 .plan__footer {
   display: flex;
+  /* margin-right: calc(40px + 35vw); */
 }
 
 .plan__footer__container {
   display: flex;
-  margin-right: 70px;
 }
 
 .plan__footer__title {
